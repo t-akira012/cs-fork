@@ -119,9 +119,9 @@ call s:hi("Conceal",      s:gui.comment,    s:gui.background, "", "", "")
 call s:hi("DiffAdded",   s:gui.green, "", "", "", "")
 call s:hi("DiffRemoved", s:gui.red,   "", "", "", "")
 
-call s:hi("DiffAdd",    "",        s:gui.teal,       "", "", "")
-call s:hi("DiffChange", "",        s:gui.teal,       "", "", "")
-call s:hi("DiffDelete", s:gui.red, s:gui.background, "", "", "")
+call s:hi("DiffAdd",    s:gui.teal,s:gui.background, "", "", "none")
+call s:hi("DiffChange", s:gui.teal,s:gui.background, "", "", "none")
+call s:hi("DiffDelete", s:gui.red, s:gui.background, "", "", "none")
 call s:hi("DiffText",   "",        s:gui.selection,  "", "", "")
 
 
